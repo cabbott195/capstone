@@ -79,6 +79,14 @@
       h1#title{
         font-size: 7em;
       }
+      /*Fixes Nav Bar Spacing*/
+      a#item{
+        transform: translateX(-400px) translateY(16px);
+      }
+      h3#top{
+        transform: translateX(400px) translateY(16px);
+        color: white;
+      }
     </style>
 
   </head>
@@ -86,12 +94,12 @@
     
     <header class="masthead mb-auto">
       <div class="inner">
-        <h3 class="masthead-brand">Snow Pro</h3>
+        <h3 class="masthead-brand" id="top">Snow Pro</h3>
         <nav class="nav nav-masthead justify-content-center" id="nav">
-          <a class="nav-link" href="index.html">Home</a>
-          <a class="nav-link active" href="catalog.html">Catalog</a>
-          <a class="nav-link" href="about.html">About</a>
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" id="item" href="index.html">Home</a>
+          <a class="nav-link active" id="item" href="catalog.html">Catalog</a>
+          <a class="nav-link" id="item" href="about.html">About</a>
+          <a class="nav-link" id="item" href="contact.html">Contact</a>
         </nav>
       </div>
     </header>
